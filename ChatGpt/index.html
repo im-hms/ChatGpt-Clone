@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==================== For Icons ======================= -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>ChatGpt</title>
+</head>
+
+<body>
+    <div class="main">
+        <ion-icon id="toggle-menu" class="header__toggle" name="menu-outline"></ion-icon>
+        <header class="nav" id="nav-menu">
+            
+        <div class="nav__content">
+            <ion-icon id="close-menu" class="header__close" name="close-outline"></ion-icon>
+            <div class="newChat">
+                <div class="newChat__button">
+                    <button type="button"><i class="uil uil-plus"></i> &nbsp;&nbsp;New Chat</button>
+                </div>
+            </div>
+            <div class="nav_items">
+                <span></span>
+                <div class="nav__links">
+                    <ul>
+                        <li><a href="#">
+                                <!-- =============== Dark Mode Button ================ -->
+                                <div class="nav__btns">
+                                    <!--Theme Change Button -->
+                                    <i class="uil uil-moon change-theme" id="theme-button">&nbsp;&nbsp;&nbsp; Dark Mode</i> 
+                                </div>
+                            </a></li>
+                        <li><a href="#"><i class="uil uil-robot"></i> &nbsp;&nbsp;OpenAI Discord</a></li>
+                        <li><a href="#"><i class="uil uil-mars"></i> &nbsp;&nbsp;Updates & FAQ</a></li>
+                        <li><a href="#"><i class="uil uil-signout"></i> &nbsp;&nbsp;Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div class="chat">
+            <div class="chat__main">
+                <div class="chat__head">
+                    <h1>ChatGPT</h1>
+                </div>
+                <div class="chat__data">
+                    <div class="chat__col">
+                        <div class="cols cols__s">
+                            <i class="uil uil-sun"></i>
+                            <h2>Examples</h2>
+                            <li><a href="#">"Explain quantum computing in simple terms" &#8594</a></li>
+                            <li><a href="#">"Got any creative ideas for a 10 year old’s birthday?" &#8594</a></li>
+                            <li><a href="#">"How do I make an HTTP request in Javascript?" &#8594</a></li>
+                        </div>
+                        <div class="cols">
+                            <i class="uil uil-bolt"></i>
+                            <h2>Capabilities</h2>
+                            <li>Remembers what user said earlier in the conversation</li>
+                            <li>Allows user to provide follow-up corrections</li>
+                            <li>Trained to decline inappropriate requests</li>
+                        </div>
+                        <div class="cols">
+                            <i class="uil uil-exclamation-triangle"></i>
+                            <h2>Limitations</h2>
+                            <li>May occasionally generate incorrect information</li>
+                            <li>May occasionally produce harmful instructions or biased content</li>
+                            <li>Limited knowledge of world and events after 2021</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat__message">
+                    <form>
+                        <input type="text">
+                        <button type="submit"><i class="uil uil-message"></i></button>
+                    </form>
+                    <p><a href="#">ChatGPT Jan 9 Version.</a> Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- ========================== Icons ================ -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
